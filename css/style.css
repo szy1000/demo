@@ -1,0 +1,89 @@
+html {
+  height: 100%;
+}
+
+body {
+  background: url("../img/bg.jpg");
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  height: 100%;
+}
+
+a:hover {
+  text-decoration: none;
+}
+a:focus {
+  text-decoration: none;
+  outline: none;
+}
+
+*:focus {
+  outline: none;
+}
+.menu{
+  float: left;
+}
+
+.top .menu a{
+  display: block;
+  padding-top: 36px;
+  width: 120px;
+  height: 120px;
+  border-bottom: 1px solid #fff;
+  font-weight: bolder;
+  text-align: center;
+  color: #fff;
+  background-color: #242331;
+  a[role="logo"]{
+    padding-top: 0;
+    border-bottom: none;
+    font-size: 19px;
+    line-height: 120px;
+    color: #242331;
+    background-color: #03dcd4;
+  }
+  i{
+    display: block;
+    font-size: 20px;
+    color: #03dcd4;
+  }
+}
+
+.share{
+  padding-top: 120px;
+  height: 240px;
+  z-index: 1;
+  .logo{
+  float: left;
+  margin-right: 30px;
+  width:59px;
+  height: 59px;
+  text-align: center;
+  line-height: 59px;
+  border: 1px solid #ececec;
+  }
+}
+
+.nav{
+  position: relative;
+  .img{
+  float: right;
+  }
+  .num{
+  position: absolute;
+  right: 0;
+  top: 34%;
+  }
+}
+
+.nav li a{
+  display: block;
+  margin-top: 4px;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  color: #fff;
+  background-color: #242331;
+}

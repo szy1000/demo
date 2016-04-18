@@ -1,0 +1,11 @@
+{
+  "protocol": "github",
+  "gihub": {
+    "author": "fis-components"
+  },
+  "dependencies": [
+    "jquery@^1.9.1",
+    "jquery-fullpage@^2.7.4",
+    "normalize-css"
+  ]
+}
