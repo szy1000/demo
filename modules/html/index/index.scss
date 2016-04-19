@@ -183,11 +183,21 @@ a:focus {
     }
   }
   .details-bg{
+    margin-top: 20px;
     background-color: #fff;
   }
   .details{
     height: 500px;
     background: url("images/services-bg.jpg") no-repeat;
     background-position: right bottom;
+    h4{
+      font-weight: bold;
+    }
+    ul{
+      padding: 0;
+      li{
+        list-style-type: none;
+      }
+    }
   }
 }
